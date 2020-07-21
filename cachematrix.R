@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
   ## Method to set the matrix
   set <- function( matrix ) {
     m <<- matrix
-    i <<- NULL
+    i <<- NULL  
   }
   
   ## Method the get the matrix
